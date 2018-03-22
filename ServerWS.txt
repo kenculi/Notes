@@ -1,0 +1,29 @@
+- Web servers
+    + OS: Debian GNU/Linux 8.6 (jessie)
+    + Apache: Apache/2.4.10
+    + PHP: 5.6.33
+    + Phalcon Framework: 3.0.3
+    + Disk: 15G / 50G (32%)
+
+- Databases (Master & Slave)
+    + OS: Debian GNU/Linux 8.7 (jessie)
+    + MySQL: 5.5.59
+    + Disks (SSD):
+        - Master: 40G / 99G (43%)
+        - Slave: 45G / 99G (48%)
+
+- Renewal
+    + OS: Debian GNU/Linux 9.2 (stretch)
+    + MariaDB: 10.1.26
+    + PHP: multiple versions supported (5.6 / 7.0 / 7.1 / 7.2)
+    + nginx: 1.10.3
+    + Disks:
+        - Boot disk: 99G / 50G (50%)
+        - DB disk: 98G / 60G (60%)
+
+- Redis: 
+    + OS: Debian GNU/Linux 8.6 (jessie)
+    + Redis: 3.2.6
+    + Disks:
+        - Boot disk: 2.6G / 9.8G (28%)
+        - DB Backup: 60G / 99G (61%)
