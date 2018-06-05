@@ -11,6 +11,6 @@ pt-kill --host=localhost --user=root --password=root \
 
 # Mail commands
 Show all current connection:\
-dove who\
+doveadm who\
 Reload service to stop connection:\
-dove reload
+doveadm reload
